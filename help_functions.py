@@ -20,3 +20,8 @@ def calc_average(mat):
     av_vec = av_vec / num_rows
 
     return av_vec
+
+def calc_mean(mat):
+    res = np.sum(mat)
+
+    return res
