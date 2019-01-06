@@ -13,6 +13,12 @@ def main():
 
     print("Dimension of av_vec: " + str(av_vec.shape) )
 
+# setting up a dictionnary to map
+def create_dict():
+    dict = {}
+    for cc in range(10):
+        dict["ent" + str(cc)] = cc
+    return dict
 
 main()    
-
+dict = create_dict()
