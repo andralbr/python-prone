@@ -23,5 +23,6 @@ def main(mat):
 
 
 mat = initialize(4,3)
-main(mat)    
+main(mat)
+print("program finished")
 
